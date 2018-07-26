@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.eatitserver.SignIn"
+    android:background="@drawable/eatitback">
+
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:id="@+id/fbtnsignin"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/colorwhite"
+        android:text="LOGIN"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:buttonColor="#32CD32"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+        app:cornerRadius="4dp"
+        android:shadowColor="@color/colorblack"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="89dp"
+        android:ems="10"
+        android:text="mayankpal1907@gmail.com"
+        android:textColor="#ffffff"
+        android:inputType="textCapWords"
+        android:layout_alignParentTop="true"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mayankpal"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:inputType="textPassword"
+        android:layout_below="@+id/editemail"
+        android:layout_alignStart="@+id/editemail"
+        android:layout_marginTop="29dp" />
+
+
+
+
+</RelativeLayout>

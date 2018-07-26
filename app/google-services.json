@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "499100193069",
+    "firebase_url": "https://eat-it-4b745.firebaseio.com",
+    "project_id": "eat-it-4b745",
+    "storage_bucket": "eat-it-4b745.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499100193069:android:2d9046f9fb477c5c",
+        "android_client_info": {
+          "package_name": "com.example.dell.eatit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499100193069-t0a64c3b3b9f33251i92phpm02ugmh6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD0PLSDLXKRRfL31bP9RQdswr-08bagZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499100193069:android:6bc7868aa7f4e3fa",
+        "android_client_info": {
+          "package_name": "com.example.dell.eatitserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499100193069-t0a64c3b3b9f33251i92phpm02ugmh6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD0PLSDLXKRRfL31bP9RQdswr-08bagZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
